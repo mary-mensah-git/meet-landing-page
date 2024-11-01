@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3em;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 304px;
+}
+
+.hero-image-left,
+.hero-image-right {
+  position: relative;
+  flex: 1;
+}
+
+.hero-image-left img,
+.hero-image-right img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 100%;
+  transform: translateY(-50%);
+}
+
+.hero-image-left img {
+  left: -30px;
+}
+
+.hero-image-right img {
+  right: -30px;
+}
+
+.hero-content {
+  flex: 2;
+  text-align: center;
+  max-width: 500px;
+  max-height: 304px;
+}
+
+.hero-content1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #28283D;
+ 
+  line-height: 2.8rem;
+
+}
+
+
+.Download {
+  text-decoration: none;
+  border: none;
+  background-color: #4D96A9;
+  font-size: 1rem;
+  color: white;
+  border-radius: 10rem;
+  padding: 1rem 2.5rem;
+}
+.Download:hover{
+  background-color: #8FE3F9;
+ 
+}
+
+.version {
+  color: #8FE3F9;
+}
+
+.Help {
+  text-decoration: none;
+  border: none;
+  background-color: #4D96A9;
+  font-size: 1rem;
+  color: white;
+  border-radius: 10rem;
+  padding: 1rem 2.5rem;
+}
+.Help:hover{
+  background-color: #8FE3F9;
+}
+
+
+.hero-content p {
+  margin: 1rem 0 1rem 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  
+}
+
+.line {
+  width: 2px;
+  height: 80px;
+  background-color: #87879D;
+  margin-bottom: 25px;
+  opacity: 0.2;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #87879D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px; 
+  opacity: 0.2;
+
+}
+
+.number {
+  font-size: 20px;
+  font-weight: bold;
+}
+.image{
+  margin: 0 12rem;
+}
+.section-man-texting{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.section-man-texting img{
+  height: 242px;
+  width: 255px;
+  border-radius: 10px;
+}
+.text-section1{
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #4D96A9;
+ 
+ 
+
+}
+.text{
+ 
+  margin-top:8rem;
+  font-size: 1rem;
+}
+.text-section{
+  text-align: center;
+  max-width: 540px;
+  max-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin:auto;
+}
+.text-section p{
+  margin: 1rem 0 1rem 0;
+  color: #87879D;
+ 
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 -1.3rem 0;
+
+  
+}
+/* styling for the second line */
+.line1 {
+  width: 2px;
+  height: 80px;
+  background-color: #87879D;
+  margin-bottom: 25px;
+  opacity: 0.2;
+}
+/* styling for the second circl */
+.circle1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #dfdfec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px; 
+  background-color: white;
+  z-index: 3;
+}
+.number {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* Main footer container */
+.footer-content {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  width: 100vw; 
+  height: 308px; 
+  background-image: url("./assets/desktop/image-footer.jpg"); 
+  background-position: center; 
+  position: relative; 
+  color: white; 
+  padding: 0 7rem; 
+}
+
+
+.background-overlay {
+  width: 100%;
+  height: 100%; 
+  background-color: #4D96A9; 
+  position: absolute; 
+  inset: 0; 
+  opacity: 0.7; 
+  z-index: 1; 
+}
+
+/* Container for text and button */
+.footer-text {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  z-index: 2; 
+  text-align: left; 
+  gap: 3rem;
+}
+
+/* Styling for the download button */
+.download-btn {
+  background-color: #9E55E2; 
+  color: white;
+  border: none;
+  border-radius: 30px; 
+  padding: 0.75rem 1.5rem; 
+  font-size: 1rem; 
+  margin-top: 1rem; 
+  z-index: 2; 
+  height: 58px;
+  width: 193px;
+}
+.header{
+  font-size: 40px;
+}
+.paragraph{
+  font-size: 18px;
+  line-height: 26px;
+  width: 350px;
+  height: 78px;
+}
+.download-btn:hover {
+  background-color: #D9B8FF;
+  }
